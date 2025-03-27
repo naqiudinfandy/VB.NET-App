@@ -37,14 +37,51 @@ This system enables users to:
 ---
 
 ## 🖥️ Project Preview
-### **Main Dashboard**
-![Main Dashboard](https://via.placeholder.com/600x400?text=Main+Dashboard)  
 
-### **Order Management**
-![Order Management](https://via.placeholder.com/600x400?text=Order+Management)  
+### **Load Dashboard**  
+![Output](images/1.png)  
 
-### **Product Catalog**
-![Product Catalog](https://via.placeholder.com/600x400?text=Product+Catalog)  
+### **Login**  
+![Output](images/2.png)  
+
+### **Succesfull login**  
+![Output](images/3.png)  
+
+### **Main Menu**  
+![Output](images/4.png)  
+
+### **Staff Information**  
+![Output](images/5.png)  
+
+### **Customer Details**  
+![Output](images/6.png)  
+
+### **Order History**  
+![Output](images/7.png)  
+
+### **Invoice and Receipts**  
+![Output](images/8.png)  
+
+### **Order**  
+![Output](images/9.png)  
+
+### **Create Order**  
+![Output](images/10.png)  
+
+### **Product Catalog**  
+![Output](images/11.png)  
+
+### **Prooduct List**  
+![Output](images/12.png)  
+
+### **Modify Product**  
+![Output](images/13.png)  
+
+### **Modify Customer**  
+![Output](images/14.png)  
+
+
+
 
 ---
 
