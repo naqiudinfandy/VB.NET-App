@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PRJ_DRAWINGARTSUPPLIES_A188417", "PRJ_DRAWINGARTSUPPLIES_A188417\PRJ_DRAWINGARTSUPPLIES_A188417.vbproj", "{A8829364-41DC-4E91-81A8-1356BBDDEDF6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "A188417_INSTALLER", "A188417_INSTALLER\A188417_INSTALLER.vdproj", "{D1268E02-F566-49EB-B451-820094EBADBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8829364-41DC-4E91-81A8-1356BBDDEDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8829364-41DC-4E91-81A8-1356BBDDEDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8829364-41DC-4E91-81A8-1356BBDDEDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8829364-41DC-4E91-81A8-1356BBDDEDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1268E02-F566-49EB-B451-820094EBADBC}.Debug|Any CPU.ActiveCfg = Debug
+		{D1268E02-F566-49EB-B451-820094EBADBC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CFF7D9C-864A-48EA-83FA-06DC4A9EC5C7}
+	EndGlobalSection
+EndGlobal

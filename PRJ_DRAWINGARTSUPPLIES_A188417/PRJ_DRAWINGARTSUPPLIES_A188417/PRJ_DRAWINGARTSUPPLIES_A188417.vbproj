@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A8829364-41DC-4E91-81A8-1356BBDDEDF6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PRJ_DRAWINGARTSUPPLIES_A188417.My.MyApplication</StartupObject>
+    <RootNamespace>PRJ_DRAWINGARTSUPPLIES_A188417</RootNamespace>
+    <AssemblyName>PRJ_DRAWINGARTSUPPLIES_A188417</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PRJ_DRAWINGARTSUPPLIES_A188417.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PRJ_DRAWINGARTSUPPLIES_A188417.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FRM_DETAILSOFORDER_A188417.Designer.vb">
+      <DependentUpon>FRM_DETAILSOFORDER_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_DETAILSOFORDER_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MAKENEWORDER_A188417.Designer.vb">
+      <DependentUpon>FRM_MAKENEWORDER_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MAKENEWORDER_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ORDEROPTION_A188417.Designer.vb">
+      <DependentUpon>FRM_ORDEROPTION_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_ORDEROPTION_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_PRODUCTLIST_A188417.Designer.vb">
+      <DependentUpon>FRM_PRODUCTLIST_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_PRODUCTLIST_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MODICUSTOMER_A188417.Designer.vb">
+      <DependentUpon>FRM_MODICUSTOMER_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MODICUSTOMER_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MODIPRODUCT_A188417.Designer.vb">
+      <DependentUpon>FRM_MODIPRODUCT_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MODIPRODUCT_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MODISTAFF_A188417.Designer.vb">
+      <DependentUpon>FRM_MODISTAFF_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MODISTAFF_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MODIFY_A188417.Designer.vb">
+      <DependentUpon>FRM_MODIFY_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MODIFY_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ORDER_A188417.Designer.vb">
+      <DependentUpon>FRM_ORDER_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_ORDER_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_CUSTOMER_A188417.Designer.vb">
+      <DependentUpon>FRM_CUSTOMER_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_CUSTOMER_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_LOADINGPAGE_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_LOADINGPAGE_A188417.Designer.vb">
+      <DependentUpon>FRM_LOADINGPAGE_A188417.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MAINMENU_A188417.Designer.vb">
+      <DependentUpon>FRM_MAINMENU_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MAINMENU_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_PRODUCT_A188417.Designer.vb">
+      <DependentUpon>FRM_PRODUCT_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_PRODUCT_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_SPLASHSCREEN_A188417.Designer.vb">
+      <DependentUpon>FRM_SPLASHSCREEN_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_SPLASHSCREEN_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_STAFF_A188417.Designer.vb">
+      <DependentUpon>FRM_STAFF_A188417.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_STAFF_A188417.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOD_GLOBAL_A188417.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FRM_DETAILSOFORDER_A188417.resx">
+      <DependentUpon>FRM_DETAILSOFORDER_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MAKENEWORDER_A188417.resx">
+      <DependentUpon>FRM_MAKENEWORDER_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ORDEROPTION_A188417.resx">
+      <DependentUpon>FRM_ORDEROPTION_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_PRODUCTLIST_A188417.resx">
+      <DependentUpon>FRM_PRODUCTLIST_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MODICUSTOMER_A188417.resx">
+      <DependentUpon>FRM_MODICUSTOMER_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MODIPRODUCT_A188417.resx">
+      <DependentUpon>FRM_MODIPRODUCT_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MODISTAFF_A188417.resx">
+      <DependentUpon>FRM_MODISTAFF_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MODIFY_A188417.resx">
+      <DependentUpon>FRM_MODIFY_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ORDER_A188417.resx">
+      <DependentUpon>FRM_ORDER_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_CUSTOMER_A188417.resx">
+      <DependentUpon>FRM_CUSTOMER_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_LOADINGPAGE_A188417.resx">
+      <DependentUpon>FRM_LOADINGPAGE_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MAINMENU_A188417.resx">
+      <DependentUpon>FRM_MAINMENU_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_PRODUCT_A188417.resx">
+      <DependentUpon>FRM_PRODUCT_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_SPLASHSCREEN_A188417.resx">
+      <DependentUpon>FRM_SPLASHSCREEN_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_STAFF_A188417.resx">
+      <DependentUpon>FRM_STAFF_A188417.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Picture\bg other.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
